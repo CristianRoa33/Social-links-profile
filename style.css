@@ -7,11 +7,11 @@
 }
 
 :root {
-  --green: hsl(75, 94%, 57%);
-  --white: hsl(0, 0%, 100%);
-  --grey-700: hsl(0, 0%, 20%);
-  --grey-800: hsl(0, 0%, 12%);
-  --grey-900: hsl(0, 0%, 8%);
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
 }
 
 body {
@@ -87,19 +87,14 @@ button:hover {
 }
 
 button:hover a {
-  color: var(--green);
+    color: var(--green);
 }
-
 
 a { 
     text-decoration: none;
     color: var(--white);
     font-weight: 600;
 }
-
-
-
-
 
 .attribution { 
     font-size: 11px; 
@@ -108,4 +103,16 @@ a {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+/* Mobile Responsive */
+@media (max-width: 375px){
+    .card_container {
+        width: 20rem;
+        height: 36rem;
+    }
+
+    button {
+        width: 16rem;
+    }
 }
