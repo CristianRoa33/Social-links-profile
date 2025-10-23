@@ -78,9 +78,25 @@ button {
     border-radius: 5px;
     width: 19rem;
     height: 40px;
+}
+
+button:hover {
+    background-color: var(--grey-800);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover a {
+  color: var(--green);
+}
+
+
+a { 
+    text-decoration: none;
     color: var(--white);
     font-weight: 600;
 }
+
 
 
 
