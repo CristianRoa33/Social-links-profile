@@ -106,7 +106,7 @@ a {
 }
 
 /* Mobile Responsive */
-@media (max-width: 375px){
+@media (max-width: 425px){
     .card_container {
         width: 20rem;
         height: 36rem;
